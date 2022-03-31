@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;     
+    box-sizing:border-box; 
+    background-color: #5a6677;
+}
+
+.login-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(198, 238, 207);
+    width: 500px;
+    height: 350px;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 1;
+    color: inherit;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    text-align: center;
+}
+
+.title2{
+    margin-top: 0;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.email{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-email{
+    background-color: #a6c4ae;
+    border: none;
+    border-bottom: 3px solid #63a173;
+    color: black;
+    width: 300px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.pass{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.input-pass{
+    background-color: #a6c4ae;
+    border: none;
+    border-bottom: 3px solid #63a173;
+    color: black;
+    width: 300px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+
+}
+
+
+.logg{
+    margin-top: 20px;
+    justify-content: flex-end;
+    display: flex;
+    background-color: #63a173;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 19px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2px;
+    vertical-align: middle;
+}
+.logg span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.logg span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.logg:hover span {
+    padding-right: 15px;
+}
+  
+.logg:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.promo{
+    font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -2%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.inima{
+    color:red;
+}
